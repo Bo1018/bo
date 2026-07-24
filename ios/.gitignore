@@ -1,0 +1,16 @@
+# XcodeGen이 생성하는 프로젝트 파일 (project.yml에서 재생성)
+*.xcodeproj
+
+# Xcode / 빌드 산출물
+build/
+DerivedData/
+*.xcuserstate
+xcuserdata/
+*.xcworkspace/xcuserdata/
+
+# CocoaPods / SwiftPM (사용 시)
+Pods/
+.swiftpm/
+
+# macOS
+.DS_Store
