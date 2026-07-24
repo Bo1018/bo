@@ -45,6 +45,8 @@ targets:
         UIApplicationSceneManifest:
           UIApplicationSupportsMultipleScenes: false
         NSCameraUsageDescription: "문서를 촬영해 스캔하기 위해 카메라를 사용합니다."
+        # 표준 암호화만 사용 → TestFlight 업로드 시 수출 규정 질문 자동 처리.
+        ITSAppUsesNonExemptEncryption: false
         UISupportedInterfaceOrientations:
           - UIInterfaceOrientationPortrait
         UISupportedInterfaceOrientations~ipad:
